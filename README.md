@@ -2,6 +2,12 @@
 ## Overview
 This repository contains Python scripts that assist in creating pixel art. By leveraging the PIL library, these scripts provide an automated process to dynamically quantise PNG source files to emphasize dominant colors then rebuild the image using coloured boxes rendered by JavaScript in an output HTML file.
 
+## Scripts
+- **Rectangular Source, Multi-File**: Takes multiple rectangular source images (user defines dimensions) and outputs an HTML file relating to each, which builds a 'pixel art' version of the original image and a PNG of the rendered image
+- **Rectangular Source, Single File**: Takes a single rectangular source image and outputs an HTML & PNG file as above
+- **Square Source, Multi-File JSON**: Takes multiple square source images and processes as above, but outputs PNG thumbnail and JSON, rather than HTML
+- **Square Source, Single File**: Takes a single square source image and outputs an HTML file as the first two above
+
 ## Features
 - **Image Quantization**: Transform images into a reduced set of colors, retaining their essential details.
 - **Dynamic Palette Generation**: Extracts the dominant colors from an image to build a dynamic color palette.
